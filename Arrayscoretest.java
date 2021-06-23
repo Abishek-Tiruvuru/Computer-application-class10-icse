@@ -2,7 +2,7 @@
 /**
  * Question
  * 
- * Write a program to fill an array of type int of size 10 and print only the even numbers.
+ * Write a program to fill an array of type int of size 10 and and accept scores of 10 students.Then print the number of students who have scored above int.
  * 
  */
 
