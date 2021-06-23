@@ -34,9 +34,6 @@ public class Arrayscoretest {
         System.out.print("Students who have scored above " + pass + " are ");
         for (int i = 0; i < 10; i++) {
             if (a[i] > pass) {
-
-                int b = 0;
-                c = b;
                 c++;
 
             }
