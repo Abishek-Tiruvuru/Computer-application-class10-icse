@@ -3,7 +3,7 @@
 /**
  * Question
  * 
- * Write a program to fill an array of type int of size 10 with the scores of 10 studebts and print the
+ * Write a program to fill an array of type int of size 10 with the scores of 10 students and print the
  * number of students who scored more than int.
  * 
  */
