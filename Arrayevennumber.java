@@ -28,7 +28,7 @@ public class Arrayevennumber
         {
                 System.out.print(a[i]+" ");
         }
-        //separating and printing the even numbers of the arraya
+        //separating and printing the even numbers of the arrays
         System.out.println("");
         System.out.print("Even numbers:");
         for(int i = 0 ; i < a.length ; i++)
