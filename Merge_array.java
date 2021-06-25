@@ -2,8 +2,7 @@
 /**
  * Question
  * 
- * Write a program to accept 2 array of type int of size from the user with the scores of 10 students and print the
- * number of students who scored more than int.
+ * Write a program to accept 2 arrays of type int of size from the user and print the first and second merged into the third.
  * 
  */
 
