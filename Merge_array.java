@@ -76,8 +76,10 @@ class Merge_array {
 /*
 Output
 
-Enter array size : 
+Enter first array size : 
 5
+Enter second array size : 
+4
 Enter array 1 : 
 1
 2
@@ -85,12 +87,11 @@ Enter array 1 :
 4
 5
 Enter array 2 : 
-1
-2
-3
-4
-5
+6
+7
+8
+9
 Array after merging
-1 2 3 4 5 1 2 3 4 5
+1 2 3 4 5 6 7 8 9
  * 
  */
