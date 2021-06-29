@@ -9,20 +9,19 @@
 import java.util.*;
 
 class Merge_array {
-  
-    
+
     // Main method
     public static void main(String args[]) {
-        //initializing scanner class
+        // initializing scanner class
         Scanner sc = new Scanner(System.in);
-        //Accepting array size
+        // Accepting array size
         System.out.println("Enter first array size : ");
 
         int size1 = sc.nextInt();
         System.out.println("Enter second array size : ");
 
         int size2 = sc.nextInt();
-        //Accepting first array
+        // Accepting first array
         System.out.println("Enter array 1 : ");
         int arr1[] = new int[size1];
         for (int i = 0; i < arr1.length; i++) {
@@ -32,7 +31,7 @@ class Merge_array {
         }
 
         int n1 = arr1.length;
-        //Accepting second array 
+        // Accepting second array
         System.out.println("Enter array 2 : ");
         int arr2[] = new int[size2];
         for (int i = 0; i < arr2.length; i++) {
@@ -42,56 +41,42 @@ class Merge_array {
         }
 
         int n2 = arr2.length;
-        //initializing third array
+        // initializing third array
         int arr3[] = new int[n1 + n2];
-        //Merging both arrays
+        // Merging both arrays
         int i = 0, j = 0, k = 0;
 
-         while (i < n1 ) {
+        while (i < n1) {
             arr3[k++] = arr1[i++];
-            
+
         }
 
-        while ( j < n2) {
-            
+        while (j < n2) {
+
             arr3[k++] = arr2[j++];
         }
 
-        
         while (i < n1)
             arr3[k++] = arr1[i++];
 
-    
         while (j < n2)
             arr3[k++] = arr2[j++];
         // printing the third array
         System.out.println("Array after merging");
         for (int l = 0; l < n1 + n2; l++)
             System.out.print(arr3[l] + " ");
-            //closing scanner class
+        // closing scanner class
         sc.close();
     }
 }
 
 /*
-Output
-
-Enter first array size : 
-5
-Enter second array size : 
-4
-Enter array 1 : 
-1
-2
-3
-4
-5
-Enter array 2 : 
-6
-7
-8
-9
-Array after merging
-1 2 3 4 5 6 7 8 9
+ * Output
+ * 
+ * Enter first array size : 5 
+ * Enter second array size : 4
+ * Enter array 1 : 1 2 3 4 5 
+ * Enter array 2 : 6 7 8 9 
+ * Array after merging 1 2 3 4 5 6 7 8 9
  * 
  */
